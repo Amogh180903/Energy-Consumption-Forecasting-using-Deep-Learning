@@ -1,15 +1,20 @@
-# Energy Consumption Forecasting for Smart Grids using Deep Learning
+
+# ⚡ Energy Consumption Forecasting for Smart Grids using Deep Learning
 
 This project applies and compares three advanced deep learning models — **LSTM**, **Bidirectional LSTM (BiLSTM)**, and **Transformer** — to forecast annual energy consumption from historical smart grid data.
 
-### Objective:
+---
+
+## 🎯 Objective
 
 To improve energy management and grid stability by:
 - Accurately forecasting energy consumption
 - Supporting demand response planning
 - Enhancing renewable integration and reducing costs
 
-### Technologies Used:
+---
+
+## 🛠️ Technologies Used
 
 - Python (Google Colab)
 - TensorFlow / Keras
@@ -18,25 +23,45 @@ To improve energy management and grid stability by:
 - MinMaxScaler
 - Dataset Source: Kaggle (preprocessed energy data till 2024)
 
-### Model Architectures
+---
 
-#### LSTM Model:
+## 🧠 Model Architectures
+
+### ✅ LSTM Model
 - 2 stacked LSTM layers (64 units)
 - Dropout layers (0.2) to prevent overfitting
 - Dense output layer
 
-#### BiLSTM Model
+```python
+# Refer to: lstm_energy_forecasting_complete.py
+```
+
+---
+
+### ✅ BiLSTM Model
 - 2 Bidirectional LSTM layers with dropout
 - Dense layers for final regression output
 - Achieved **best performance** in our comparison
 
-#### Transformer Model
+```python
+# Refer to: bilstm_energy_forecasting.py
+```
+
+---
+
+### ✅ Transformer Model
 - Custom self-attention encoder with:
   - Multi-head attention
   - Position-wise feed-forward layers
 - More scalable, but slightly less accurate in this setup
 
-### Results
+```python
+# Refer to: transformer_energy_forecasting.py
+```
+
+---
+
+## 📊 Results
 
 | Model       | RMSE    | MAE     |
 |-------------|---------|---------|
@@ -44,4 +69,23 @@ To improve energy management and grid stability by:
 | BiLSTM      | 0.0323  | 0.0128  |
 | Transformer | 0.0633  | 0.0291  |
 
->  BiLSTM emerged as the most accurate model for smart grid demand forecasting.
+> 📌 BiLSTM emerged as the most accurate model for smart grid demand forecasting.
+
+---
+
+## 🧪 Evaluation Metrics
+
+- **RMSE**: Root Mean Squared Error — penalizes larger errors more
+- **MAE**: Mean Absolute Error — provides average error in predictions
+- All values computed on the **validation set** using `scikit-learn` metrics.
+
+---
+
+## 🧠 Future Work
+
+- Integrate external factors like weather, population, or economic activity
+- Apply hybrid architectures or ensemble approaches
+- Optimize models for real-time deployment
+- Improve model interpretability with attention visualization
+
+---
