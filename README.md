@@ -58,6 +58,54 @@ To improve energy management and grid stability by:
 ```python
 # Refer to: transformer.py
 ```
+---
+
+## 📈 Model Visualizations
+
+### 🔷 LSTM Model
+
+#### 📉 Training and Validation Loss
+![LSTM Loss Curve](./Picture%201.jpg)
+
+#### 📊 Actual vs Predicted Energy Consumption
+![LSTM Actual vs Predicted](./Picture%202.jpg)
+
+#### 🔮 Forecast for 2025–2035
+![LSTM Future Forecast](./Picture%203.jpg)
+
+---
+
+### 🔷 BiLSTM Model
+
+#### 📉 Training and Validation Loss
+![BiLSTM Loss Curve](./Picture%204.jpg)
+
+#### 📊 Actual vs Predicted Energy Consumption
+![BiLSTM Actual vs Predicted](./Picture%205.jpg)
+
+#### 🔮 Forecast for 2025–2035
+![BiLSTM Future Forecast](./Picture%206.jpg)
+
+---
+
+### 🔷 Transformer Model
+
+#### 📉 Training and Validation Loss
+![Transformer Loss Curve](./Picture%207.jpg)
+
+#### 📊 Actual vs Predicted Energy Consumption
+![Transformer Actual vs Predicted](./Picture%208.jpg)
+
+#### 🔮 Forecast for 2025–2035
+![Transformer Future Forecast](./Picture%209.jpg)
+
+---
+
+### 🔎 Notes
+
+- **Loss curves** help visualize convergence and detect overfitting.
+- **Actual vs Predicted** plots demonstrate model generalization on validation data.
+- **Forecast graphs** illustrate long-term predictions (2025–2035), useful for energy planning.
 
 ---
 
