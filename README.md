@@ -33,7 +33,7 @@ To improve energy management and grid stability by:
 - Dense output layer
 
 ```python
-# Refer to: lstm_energy_forecasting_complete.py
+# Refer to: lstm.py
 ```
 
 ---
@@ -44,7 +44,7 @@ To improve energy management and grid stability by:
 - Achieved **best performance** in our comparison
 
 ```python
-# Refer to: bilstm_energy_forecasting.py
+# Refer to: bilstm.py
 ```
 
 ---
@@ -56,7 +56,7 @@ To improve energy management and grid stability by:
 - More scalable, but slightly less accurate in this setup
 
 ```python
-# Refer to: transformer_energy_forecasting.py
+# Refer to: transformer.py
 ```
 
 ---
