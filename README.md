@@ -65,39 +65,39 @@ To improve energy management and grid stability by:
 ### 🔷 LSTM Model
 
 #### 📝 Training and Validation Loss
-![LSTM Loss Curve](./Results/Picture 1.jpg)
+![LSTM Loss Curve](./Results/Picture%201.jpg)
 
 #### 📊 Actual vs Predicted Energy Consumption
-![LSTM Actual vs Predicted](./Results/Picture 2.jpg)
+![LSTM Actual vs Predicted](./Results/Picture%202.jpg)
 
 #### 🔮 Forecast for 2025–2035
-![LSTM Future Forecast](./Results/Picture 3.jpg)
+![LSTM Future Forecast](./Results/Picture%203.jpg)
 
 ---
 
 ### 🔷 BiLSTM Model
 
 #### 📝 Training and Validation Loss
-![BiLSTM Loss Curve](./Results/Picture 4.jpg)
+![BiLSTM Loss Curve](./Results/Picture%204.jpg)
 
 #### 📊 Actual vs Predicted Energy Consumption
-![BiLSTM Actual vs Predicted](./Results/Picture 5.jpg)
+![BiLSTM Actual vs Predicted](./Results/Picture%205.jpg)
 
 #### 🔮 Forecast for 2025–2035
-![BiLSTM Future Forecast](./Results/Picture 6.jpg)
+![BiLSTM Future Forecast](./Results/Picture%206.jpg)
 
 ---
 
 ### 🔷 Transformer Model
 
 #### 📝 Training and Validation Loss
-![Transformer Loss Curve](./Results/Picture 7.jpg)
+![Transformer Loss Curve](./Results/Picture%207.jpg)
 
 #### 📊 Actual vs Predicted Energy Consumption
-![Transformer Actual vs Predicted](./Results/Picture 8.jpg)
+![Transformer Actual vs Predicted](./Results/Picture%208.jpg)
 
 #### 🔮 Forecast for 2025–2035
-![Transformer Future Forecast](./Results/Picture 9.jpg)
+![Transformer Future Forecast](./Results/Picture%209.jpg)
 
 ---
 
